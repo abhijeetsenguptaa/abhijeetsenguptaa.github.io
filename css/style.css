@@ -187,7 +187,11 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+/*  */
 
+
+
+/*  */
 .nav_logo {
     color: var(--title-color);
     font-size: var(--h3-font-size);
@@ -391,13 +395,20 @@ img {
 }
 
 /* ====== ABOUT ====== */
+/* .about_img {
+    width: 200px;
+    border-radius: 1rem;
+    justify-content: center;
+    margin: auto;
+    align-self: center;
+} */
 .about_data{
     /* border:  1px solid red; */
     width: 100%;
     margin: auto;
 }
 .about_description {
-    text-align: left;
+    text-align: center;
     margin-bottom: var(--mb-2-5);
     width: 100%;
     margin-right: 20px;
@@ -944,10 +955,6 @@ img {
         justify-self: center;
     }
 
-    .home-img{
-        border: 1px solid black;
-        border-radius: 50%;
-    }
     .about_container,
     .skills_container,
     .portfolio_content,
