@@ -944,6 +944,10 @@ img {
         justify-self: center;
     }
 
+    .home-img{
+        border: 1px solid black;
+        border-radius: 50%;
+    }
     .about_container,
     .skills_container,
     .portfolio_content,
