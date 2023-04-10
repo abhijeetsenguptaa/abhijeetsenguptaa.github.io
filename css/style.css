@@ -765,6 +765,10 @@ img {
     width: 400px;
 }
 
+
+.react-activity-calendar{
+    width: 90%;
+}
 /* ====== CONTANT ====== */
 .contact_container {
     row-gap: 3rem;
