@@ -321,7 +321,8 @@ img {
 }
 
 .home_blob-img {
-    width: 80%;
+    width: 60%;
+    border: 5px solid black;
     margin:auto
 }
 
