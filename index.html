@@ -51,7 +51,7 @@
                             <i class="uil uil-message nav_icon" class="nav-link contact"></i> Contact Me
                         </a>
                     </li>
-                    <li class="nav_item" onclick="window.open('https://drive.google.com/file/d/1ZQMbl9eOL9MrfyoaabWNjgSvEis2wTC_/view?usp=sharing')">
+                    <li class="nav_item">
                         <a href="/images/Abhijeet-Sen-Gupta-Resume.pdf"  target="_blank" class="nav-link resume" id="resume-button-1" download="Abhijeet-Sengupta-Resume">
                             <i class="uil uil-download-alt nav_icon" class="nav-link resume"></i>
                             Resume
@@ -718,6 +718,13 @@
                 clickable: true,
             },
         });
+
+        let url = "https://drive.google.com/file/d/1ZQMbl9eOL9MrfyoaabWNjgSvEis2wTC_/view?usp=sharing";
+        let resumeBtn = document.getElementById("resume-button-1");
+
+        resumeBtn.addEventListener('click',()=>{
+            window.open(`${url}`)
+        })
     </script>
 
 </body>
